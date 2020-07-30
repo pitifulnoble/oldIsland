@@ -1,11 +1,14 @@
 // components/classic/music/index.js
+import {classicBeh} from "../classic-beh"
+
+const mMgr = wx.getBackgroundAudioManager()
 Component({
   /**
    * 组件的属性列表
    */
+  behaviors:[classicBeh],
   properties: {
-    img: String,
-    content: String
+    src: String
   },
 
   /**
@@ -22,6 +25,19 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    onPlay:function(event){
+      if(!this.data.playing){
+        this.setData({
+          playing:true
+        })
+        console.log("url:"+this.properties.src)
+        mMgr.src = this.properties.src
+      }else {
+        this.setData({
+          playing:false
+        })
+        mMgr.pause
+      }
+    }
   }
 })
