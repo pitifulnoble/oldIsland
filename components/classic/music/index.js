@@ -21,6 +21,10 @@ Component({
     musicSrc: 'images/music@tag.png'
   },
 
+  detached: function(event){
+    console.log("next pages")
+    mMgr.stop()
+  },
   /**
    * 组件的方法列表
    */
