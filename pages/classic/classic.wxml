@@ -4,9 +4,9 @@
     <v-epsoide class="epsoide" index='{{classic.index}}'/>
     <v-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{favNums}}"/>
   </view>
-  <v-movie wx:if="{{classic.type == 100}}" img="{{classic.image}}" content="{{classic.content}}"/>
+  <v-movie hidden="{{classic.type != 100}}" img="{{classic.image}}" content="{{classic.content}}"/>
   <v-music wx:if="{{classic.type == 200}}" src="{{classic.url}}" img="{{classic.image}}" content="{{classic.content}}"/>
-  <v-essay wx:if="{{classic.type == 300}}" img="{{classic.image}}" content="{{classic.content}}"/>
+  <v-essay hidden="{{classic.type != 300}}" img="{{classic.image}}" content="{{classic.content}}"/>
   <v-navi class="navi" latest='{{latest}}' first='{{first}}' title="{{classic.title}}"
     bind:left="onNext" bind:right="onPrevious"/>
 </view>

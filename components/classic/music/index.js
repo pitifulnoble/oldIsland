@@ -20,10 +20,14 @@ Component({
     playSrc: 'images/player@play.png',
     musicSrc: 'images/music@tag.png'
   },
-
-  detached: function(event){
-    console.log("next pages")
-    mMgr.stop()
+  lifetimes: {
+    attached: function() {
+      // 在组件实例进入页面节点树时执行
+      this._recoverStatus()
+    },
+    detached: function() {
+      // 在组件实例被从页面节点树移除时执行
+    },
   },
   /**
    * 组件的方法列表
@@ -42,6 +46,33 @@ Component({
         })
         mMgr.pause
       }
+    },
+
+    _recoverStatus:function(){
+      if(mMgr.paused){
+        this.setData({
+          playing:false
+        })
+      }else if(mMgr.src == this.properties.src){
+        this.setData({
+          playing:true
+        })
+      }
+    },
+
+    __monitorSwitch:function(){
+      mMgr.onPlay(()=>{
+        __monitorSwitch()
+      })
+      mMgr.onPause(()=>{
+        __monitorSwitch()
+      })
+      mMgr.onStop(()=>{
+        __monitorSwitch()
+      })
+      mMgr.onEnded(()=>{
+        __monitorSwitch()
+      })
     }
   }
 })
