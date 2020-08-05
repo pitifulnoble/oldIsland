@@ -5,7 +5,8 @@ Page({
         comments:[],
         detail: null,
         likeStatus: false,
-        likeCount: 0
+        likeCount: 0,
+        book: null
     },
     onLoad: function (options) {
         const bid = options.bid
@@ -15,7 +16,8 @@ Page({
 
         detail.then((res)=>{
             this.setData({
-                detail: res
+                detail: res,
+                book: res
             })
         })
         likeStatus.then((res)=>{
@@ -26,7 +28,7 @@ Page({
         })
         comments.then((res)=>{
             this.setData({
-                comments: res
+                comments: res.comments
             })
         })
     }

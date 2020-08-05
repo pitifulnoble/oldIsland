@@ -20,24 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f24b1b6-675e-4b7f-b443-55708b6a35a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/book/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/book/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/book/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/book/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/http-p.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/classic-beh.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/classic-beh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/essay/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/essay/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/movie/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/music/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/music/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/music/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/music/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/music/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/music/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tag/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/book-detail/book-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/book-detail/book-detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/book-detail/book-detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/book-detail/book-detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book-detail/book-detail.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +40,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Wechat mini program component js file" />
-        <option value="Wechat mini program component json file" />
         <option value="Wechat mini program page js file(Page API)" />
         <option value="Wechat mini program page json file(Page API)" />
+        <option value="Wechat mini program component js file" />
+        <option value="Wechat mini program component json file" />
       </list>
     </option>
   </component>
@@ -67,7 +58,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/util" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/blink" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -85,7 +77,8 @@
       <updated>1596286920189</updated>
       <workItem from="1596286921683" duration="149000" />
       <workItem from="1596287091656" duration="11494000" />
-      <workItem from="1596456170547" duration="2183000" />
+      <workItem from="1596456170547" duration="2271000" />
+      <workItem from="1596545325093" duration="6146000" />
     </task>
     <servers />
   </component>
@@ -105,6 +98,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596547905946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596547905946" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1596460280268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
